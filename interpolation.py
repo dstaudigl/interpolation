@@ -41,14 +41,14 @@ def main():
     def f_x( t ):
 
         # Example function:
-        return 0.3 * np.cos( t ) + 0.15 * np.cos( 2 * t )
+        return t * np.cos( t )
 
     # Define the Y component of the function to be interpolated:
 
     def f_y( t ):
 
         # Example function:
-        return 0.3 * np.sin( t )
+        return t * np.sin( t )
 
     # Set N to be the odd number of interpolation points:
 
